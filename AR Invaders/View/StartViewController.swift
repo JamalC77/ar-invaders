@@ -39,7 +39,7 @@ class StartViewController: UIViewController {
         UIView.animate(withDuration: 1.0, animations: {
             self.startButton.alpha = 0
         }) { (finished) in
-            self.startButton.isEnabled = false
+            //self.startButton.isEnabled = false
             Thread.sleep(forTimeInterval: 0.5)
             UIView.animate(withDuration: 1.0, animations: {
                 self.battlefieldButton.alpha = 1
@@ -51,7 +51,7 @@ class StartViewController: UIViewController {
     
     @IBAction func battlefieldPressed() {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "StoryViewController")
+        let vc = storyboard.instantiateViewController(withIdentifier: "GameViewController")
         present(vc, animated: true, completion: nil)
     }
     @IBAction func hqPressed() {

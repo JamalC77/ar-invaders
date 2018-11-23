@@ -443,7 +443,7 @@
 				DEVELOPMENT_TEAM = G7ESKEP4K8;
 				INFOPLIST_FILE = "AR Invaders/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.aivantgoyal.arinvaders;
+				PRODUCT_BUNDLE_IDENTIFIER = com.korvida.arinvaders;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -458,7 +458,7 @@
 				DEVELOPMENT_TEAM = G7ESKEP4K8;
 				INFOPLIST_FILE = "AR Invaders/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.aivantgoyal.arinvaders;
+				PRODUCT_BUNDLE_IDENTIFIER = com.korvida.arinvaders;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

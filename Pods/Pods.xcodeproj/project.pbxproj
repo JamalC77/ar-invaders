@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -32,16 +32,16 @@
 		097C5C99799D7218DBEF951F65251559 /* Pods-AR Invaders-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AR Invaders-resources.sh"; sourceTree = "<group>"; };
 		0981F97F64FD2FA5C400F7A649B074F4 /* Pods-AR Invaders-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AR Invaders-umbrella.h"; sourceTree = "<group>"; };
 		1AA43556F55965F4AD87B0F4B53D7982 /* AGTypewriterLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AGTypewriterLabel-dummy.m"; sourceTree = "<group>"; };
-		3E5362C15761C9BCFD9C1951D0D07FA3 /* AGTypewriterLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AGTypewriterLabel.framework; path = AGTypewriterLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		47A3B0419251814F0330EF646D72E26A /* Pods_AR_Invaders.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AR_Invaders.framework; path = "Pods-AR Invaders.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E5362C15761C9BCFD9C1951D0D07FA3 /* AGTypewriterLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AGTypewriterLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A3B0419251814F0330EF646D72E26A /* Pods_AR_Invaders.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AR_Invaders.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C7606C9C229C5881D175E662040D97E /* AGTypewriterLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGTypewriterLabel.xcconfig; sourceTree = "<group>"; };
 		56CE7C0DEE79D6D1FBE4994A06FB3F27 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C5A22B4EC97FE48F5C85A4BE0881A01 /* AGTypewriterLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AGTypewriterLabel.modulemap; sourceTree = "<group>"; };
+		5C5A22B4EC97FE48F5C85A4BE0881A01 /* AGTypewriterLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AGTypewriterLabel.modulemap; sourceTree = "<group>"; };
 		845F254519A7EEDB9F0A92837B64A834 /* Pods-AR Invaders-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AR Invaders-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8CC3C5F5B168A7224F9CF4451B3AC821 /* Pods-AR Invaders-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AR Invaders-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96EBD63F1B588F9902E28334B76A6B17 /* AGTypewriterLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AGTypewriterLabel.swift; path = AGTypewriterLabel/Classes/AGTypewriterLabel.swift; sourceTree = "<group>"; };
-		9AA61727A04CAF5572B6EFEFE43E0925 /* Pods-AR Invaders.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AR Invaders.modulemap"; sourceTree = "<group>"; };
+		9AA61727A04CAF5572B6EFEFE43E0925 /* Pods-AR Invaders.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AR Invaders.modulemap"; sourceTree = "<group>"; };
 		ACC964F0A832E499C6DEB1301E90172B /* AGTypewriterLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGTypewriterLabel-prefix.pch"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		BEE070DDEFA985F7B2E526804392ED0F /* Pods-AR Invaders-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AR Invaders-dummy.m"; sourceTree = "<group>"; };
@@ -150,7 +150,6 @@
 				96EBD63F1B588F9902E28334B76A6B17 /* AGTypewriterLabel.swift */,
 				FBAB88BDC79445AA71C5973AC02FFD5C /* Support Files */,
 			);
-			name = AGTypewriterLabel;
 			path = AGTypewriterLabel;
 			sourceTree = "<group>";
 		};
@@ -233,6 +232,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					4E25FF5C34BFF58080C12036EC540CCA = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -429,7 +433,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -520,7 +524,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
